@@ -30,7 +30,7 @@ h3{
     border-radius: 5px;
     margin-top: 0px;
     box-shadow: none;
-    background-color: white;
+    background-color: #D0D7DA;
     box-shadow: none;
     border: solid;
     border-color: #24baf1;
@@ -124,4 +124,9 @@ input:focus {
 
 .calendar{
     width: 100%;
+}
+
+.kg-choose{
+    background-color: #24baf1;
+    color: white;
 }
