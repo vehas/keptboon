@@ -186,6 +186,9 @@ header .intro-text .skills {
     font-family:'Conv_RSU Text_Regular',Sans-Serif;
     font-weight: 700;
 }
+.navbar-default {
+    background-color: #ffffff;
+}
 
 .navbar a:focus {
     outline: 0;
@@ -196,6 +199,9 @@ header .intro-text .skills {
 }
 .navbar .navbar-nav li a{
     font-size: 30px;
+}
+.navbar-default .navbar-nav>li>a{
+    color:black;
 }
 .navbar .navbar-nav li a:focus {
     outline: 0;

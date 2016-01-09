@@ -1,3 +1,9 @@
 .index-border-image{
-    margin-top: 10px;
+/*    margin-top: 10px;*/
+}
+.navbar-header page-scroll{
+    border-bottom: 2px;
+}
+.navbar navbar-default navbar-fixed-top{
+     border-bottom: 2px;
 }
