@@ -27,14 +27,11 @@ h3{
 }
 
 .box{
-    border-radius: 5px;
-    margin-top: 0px;
     box-shadow: none;
-    background-color: #D0D7DA;
+    background-color: white;
     box-shadow: none;
-    border: solid;
-    border-color: #24baf1;
-    border-width: 2px;
+    border: none;
+    color:#24baf1;
 }
 
 .box:focus {
@@ -117,9 +114,7 @@ input:focus {
 }
 
 #small-cal{
-    cursor: pointer;
-    margin-top: 5px;
-    margin-left: 5px;
+    display: none;
 }
 
 .calendar{
