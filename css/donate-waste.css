@@ -1,0 +1,58 @@
+.donate-content{
+    
+}
+
+.donate-content-header{
+    color: #24baf1;
+}
+
+.donate-content-notice{
+    color: #a4a5a5;
+}
+
+input{
+    border-radius: 10px;
+    border: solid;
+    border-color: #24baf1;
+    border-width: 2px;
+}
+
+.kg-choose{
+    display:inline;
+    border: solid;
+    border-color: #24baf1;
+    border-width: 2px;
+    background-color: white;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.cm-choose{
+    display:inline;
+    border: solid;
+    border-color: #24baf1;
+    border-width: 2px;
+    background-color: white;
+    box-shadow: none;
+    border-radius: 10px;
+    
+}
+
+.submit-button {
+    border: solid;
+    border-color: #24baf1;
+    border-width: 2px;
+    background-color: white;
+    box-shadow: none;
+    border-radius: 10px;
+    color: #a4a5a5;
+}
+
+.submit-button:hover{
+    color:black;
+    background-color: #24baf1;
+}
+
+.next{
+    margin-right: 20px;
+}
