@@ -93,6 +93,7 @@
                 <h3>รหัสผ่าน</h3>
                 <input class="col-xs-12 box" type="datetime">
         </div>
+          <br><br>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">เข้าสู่ระบบ</button>
         </div>
@@ -146,24 +147,40 @@
 src="https://www.google.com/maps/embed/v1/place?q=place_id
 :ChIJZS7oEY2e4jARZUNaZ54cUko&key=AIzaSyD2loUAGvDGFByqMb5CiHNFVJ-0lfKkScM" allowfullscreen></iframe>
                 </div>
-                <h3>ท่านต้องการใบลดหย่อนภาษีหรือไม่</h3>
-                <div class="btn-group" data-toggle="buttons">
-                    <label class="btn btn-default unit-choose kg-choose">
-                        <input type="radio"> ต้องการ
-                    </label> 
-                    <label class="btn btn-default unit-choose cm-choose">
-                        <input type="radio"> ไม่ต้องการ
-                    </label> 
-                </div>
-
 
                 <br><br>
                 <div class="text-center">
                     
                     <button class="submit-button cancle"><a href="donate-foundation.html">ย้อนกลับ</a></button>
                     
-                    <button class="submit-button next"><a href="donate-tax-break-.html">ถัดไป</a></button>
+                    <button class="submit-button next" data-toggle="modal" data-target="#myModal2" style="color:black;">ถัดไป</button>
                 </div>
+                
+                <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">ท่านต้องการใบลดหย่อนภาษีหรือไม่</h3>
+        </div>
+        <div class="modal-body text-center">
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default unit-choose kg-choose" style="width:150px;">
+                        <input type="radio"> ต้องการ
+                    </label> 
+                    <label class="btn btn-default unit-choose cm-choose" style="width:150px;">
+                        <input type="radio"> ไม่ต้องการ
+                    </label> 
+                </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default"><a href="donate-tax-break-.html">ถัดไป</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+                
                 
             </div>
         </div>
