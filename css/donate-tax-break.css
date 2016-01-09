@@ -123,3 +123,7 @@ input:focus {
 .calendar{
     width: 100%;
 }
+
+.box-dis{
+    border: none;
+}
