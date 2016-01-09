@@ -68,26 +68,27 @@
 
     <!-- Portfolio Grid Section -->
     <section id="donate-waste-content">
-        <div class="step-bar">
-            <ul>
-                <li active>ระบุปริมาณกระดาษ</li>
-                <li>เลือกมูลนิธิ</li>
-                <li>นัดหมาย</li>
-                <li>กรอกรายละเอียดใบลดหย่อนภาษี</li>
-                <li>ยืนยันการบริจาค</li>
-            </ul>
+        <div class="step-bar text-center">
+            <img src="/img/tab1.png">
         </div>
 
         <div class="donate-content">
-            <h1 class="text-center donate-content-header">ตอนนี้คุณมีขยะอะไร?</h1>
+            <h1 class="text-center donate-content-header">ตอนนี้คุณมีขยะเท่าไหร่?</h1>
 
             <h3 class="text-center donate-content-notice">*กรุณากรอกข้อมูลเพื่อใช้ในการประเมินการขนส่ง*</h3>
 
             <div class="text-center">
                 <div style="display:inline;">กระดาษ : </div>
                 <input class="number-paper" type="number">
-                <button class="kg-choose">กก.</button>
-                <button class="cm-choose">ซ.ม.</button>
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default unit-choose kg-choose">
+                        <input type="radio"> กก.
+                    </label> 
+                    <label class="btn btn-default unit-choose cm-choose">
+                        <input type="radio"> ซ.ม.
+                    </label> 
+                </div>
+                
             </div>
             
             <br>
