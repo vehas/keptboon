@@ -10,32 +10,30 @@
     color: #a4a5a5;
 }
 
-input{
+.number-paper{
     border-radius: 10px;
     border: solid;
     border-color: #24baf1;
     border-width: 2px;
+}
+
+
+
+.unit-choose{
+    display:inline;
+    border: solid;
+    border-color: #24baf1;
+    border-width: 2px;
+    background-color: white;
+    box-shadow: none;
+    border-radius: 10px;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .kg-choose{
-    display:inline;
-    border: solid;
-    border-color: #24baf1;
-    border-width: 2px;
-    background-color: white;
-    box-shadow: none;
-    border-radius: 10px;
-}
-
-.cm-choose{
-    display:inline;
-    border: solid;
-    border-color: #24baf1;
-    border-width: 2px;
-    background-color: white;
-    box-shadow: none;
-    border-radius: 10px;
-    
+    border-right: none;
 }
 
 .submit-button {

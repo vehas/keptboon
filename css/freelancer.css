@@ -59,6 +59,10 @@ a.active {
     color: #18bc9c;
 }
 
+.nav a{
+    font-size: 40px;
+}
+
 h1,
 h2,
 h3,
