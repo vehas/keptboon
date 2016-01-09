@@ -221,6 +221,10 @@ header .intro-text .skills {
     margin-top: 10px;
 }
 
+.navbar-brand img{
+    height:95%;
+}
+
 section {
     padding: 100px 0;
 }
@@ -507,4 +511,12 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+footer {
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
 }
