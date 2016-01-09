@@ -19,7 +19,7 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     
     <link href="css/donate-waste.css" rel="stylesheet" type="text/css">
- <link href="css/index.css" rel="stylesheet" type="text/css">
+
 
 </head>
 
@@ -36,8 +36,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="img/logo.png">
-                
+                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,19 +46,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="/">เกี่ยวกับ</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="/donate-waste.html">บริจาค</a>
+                        <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="/activity.html">กิจกรรม</a>
-                    </li>
-                    <li class="page-scroll ">
-                        <a href="/login.html">เข้าสู่ระบบ </a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">สมัครสมาชิก</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -74,12 +67,34 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section class="index-border-image">
-     <div class="container text-center">
-        <img src="img/session1.png">
-         <img src="img/session2.png">
-         <img src="img/session3.png" >
-        <img src="img/session4.png" >
+    <section id="donate-waste-content">
+        <div class="step-bar">
+            <ul>
+                <li active>ระบุปริมาณกระดาษ</li>
+                <li>เลือกมูลนิธิ</li>
+                <li>นัดหมาย</li>
+                <li>กรอกรายละเอียดใบลดหย่อนภาษี</li>
+                <li>ยืนยันการบริจาค</li>
+            </ul>
+        </div>
+
+        <div class="donate-content">
+            <h1 class="text-center donate-content-header">ตอนนี้คุณมีขยะอะไร?</h1>
+
+            <h3 class="text-center donate-content-notice">*กรุณากรอกข้อมูลเพื่อใช้ในการประเมินการขนส่ง*</h3>
+
+            <div class="text-center">
+                <div style="display:inline;">กระดาษ : </div>
+                <input type="number">
+                <button class="kg-choose">กก.</button>
+                <button class="cm-choose">ซ.ม.</button>
+            </div>
+            
+            <br>
+            <div class="text-center">
+                <button class="submit-button next">ถัดไป</button>
+                <button class="submit-button cancle">ยกเลิก</button>
+            </div>
         </div>
     </section>
 
