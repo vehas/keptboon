@@ -102,7 +102,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #fd9048;
 }
 
 hr.star-primary {
@@ -121,7 +121,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #fd9048;
 }
 
 header .container {
@@ -198,7 +198,10 @@ header .intro-text .skills {
 .navbar a:focus {
     outline: 0;
 }
-
+.active > a{
+    color :#fd9048;
+    text-underline-position: below;
+}
 .navbar .navbar-nav {
     letter-spacing: 1px;
 }
@@ -206,7 +209,7 @@ header .intro-text .skills {
     font-size: 30px;
 }
 .navbar-default .navbar-nav>li>a{
-    color:black;
+    color:white;
 }
 .navbar .navbar-nav li a:focus {
     outline: 0;
@@ -236,7 +239,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #fd9048;
 }
 
 section.success a,
@@ -329,7 +332,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #fd9048;
     background: #fff;
 }
 
@@ -382,7 +385,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #fd9048;
 }
 
 form .row:first-child .floating-label-form-group {
