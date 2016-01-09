@@ -1,46 +1,194 @@
-<html>
-<header>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>KeptBoon</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     
-<body>
-    <div class="step-bar">
-        <ul>
-            <li>ระบุปริมาณกระดาษ</li>
-            <li>เลือกมูลนิธิ</li>
-            <li active>นัดหมาย</li>
-            <li>กรอกรายละเอียดใบลดหย่อนภาษี</li>
-            <li>ยืนยันการบริจาค</li>
-        </ul>
-    </div>
-    
-    <div class="donate-content">
-        <h1>กรุณาระบุรายละเอียดการนัดหมาย</h1>
+    <link href="css/donate-date.css" rel="stylesheet" type="text/css">
 
-        <button>เข้าสู่ระบบ</button>
-        <div>เข้าสู่ระบบเพื่อ.........</div>
 
-        <h3>ชื่อบริษัท</h3>
-        <input type="text">
+</head>
 
-        <h3>วัน - เวลา</h3>
-        <input type="datetime">
+<body id="page-top" class="index">
 
-        <h3>เบอร์โทรศัพท์</h3>
-        <input type="text">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">keptboon</a>
+            </div>
 
-        <h3>E-mail</h3>
-        <input type="email">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#donate">บริจาค</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#sctivity">กิจกรรม</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#login">เข้าสู่ระบบ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-        <h3>ระบุตำแหน่ง</h3>
+    <!-- Header -->
+    <header>
+        <br>
+    </header>
 
-        <h3>ท่านต้องการใบลดหย่อนภาษีหรือไม่</h3>
-        <form>
-            <input type="radio">ต้องการ
-            <input type="radio">ไม่ต้องการ
-        </form>
+    <!-- Portfolio Grid Section -->
+    <section id="donate-waste-content">
+        <div class="step-bar text-center">
+            <img src="/img/tab3.png">
+        </div>
         
-        <button>ถัดไป</button>
-        <button>ยกเลิก</button>
+        <div class="donate-content">
+            <h1 class="text-center donate-content-head">กรอกรายละเอียดการนัดหมาย</h1>
+
+            <button class="text-center col-xs-6 col-xs-offset-3 login-button" data-toggle="modal" data-target="#myModal1">เข้าสู่ระบบ</button>
+            
+            <!-- Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">เข้าสู่ระบบ</h4>
+        </div>
+        <div class="modal-body">
+          <h3>ชื่อผู้ใช้งาน</h3>
+                <input class="col-xs-12 box" type="text">
+                <br>
+                <h3>รหัสผ่าน</h3>
+                <input class="col-xs-12 box" type="datetime">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">เข้าสู่ระบบ</button>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+            
+            <br>
+            <div class="login-detail text-center">เข้าสู่ระบบเพื่อ.........</div>
+
+            <div class="col-xs-offset-3 col-xs-6" style="padding:0px;">
+                <div class="col-xs-12 underline"></div>
+
+                <h3>ชื่อบริษัท</h3>
+                <input class="col-xs-12 box" type="text">
+                <br>
+                <h3>วัน - เวลา</h3>
+                <input class="col-xs-11 box" type="datetime">
+                <img id="small-cal" src="img/small-calendar.png" data-toggle="modal" data-target="#myModal">
+                
+                
+                <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">เลือกวัน - เวลา ที่สะดวก</h3>
+        </div>
+        <div class="modal-body">
+          <img class="calendar" src="img/calendar.png">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                
+                <br>
+                <h3>เบอร์โทรศัพท์</h3>
+                <input class="col-xs-12 box" type="text">
+                <br>
+                <h3>E-mail</h3>
+                <input class="col-xs-12 box" type="email">
+                <br>
+                <h3>ระบุตำแหน่ง</h3>
+                <div class="map text-center">
+                    <img src="/img/map.png">
+                </div>
+                <h3>ท่านต้องการใบลดหย่อนภาษีหรือไม่</h3>
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default unit-choose kg-choose">
+                        <input type="radio"> ต้องการ
+                    </label> 
+                    <label class="btn btn-default unit-choose cm-choose">
+                        <input type="radio"> ไม่ต้องการ
+                    </label> 
+                </div>
+
+
+                <br><br>
+                <div class="text-center">
+                    <button class="submit-button next">ถัดไป</button>
+                    <button class="submit-button cancle">ยกเลิก</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+    
+    <script>
+        document.getElementById("#small-cal").click(function(){
+            alert("The paragraph was clicked.");
+        });
+    </script>
+
 </body>
+
 </html>

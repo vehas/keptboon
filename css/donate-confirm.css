@@ -1,22 +1,53 @@
-.donate-content{
-    
-}
-
-.donate-content-header{
+.donate-content-head{
     color: #24baf1;
 }
 
-.donate-content-notice{
+.login-button{
+    background-color: #24baf1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login-button:hover{
+    background-color: #76d1f5;
+}
+
+.login-detail{
+    margin-top: 13px;
+    font-size: 16px;
     color: #a4a5a5;
 }
 
-.number-paper{
-    border-radius: 10px;
+h3{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.box{
+    border-radius: 5px;
+    margin-top: 0px;
+    box-shadow: none;
+    background-color: #D0D7DA;
+    box-shadow: none;
     border: solid;
     border-color: #24baf1;
     border-width: 2px;
 }
 
+.box:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+.underline{
+    border-bottom: dotted;
+}
+
+.step-bar img{
+}
 
 
 .unit-choose{
@@ -71,10 +102,6 @@
     background-color: #24baf1;
 }
 
-.next{
-    margin-right: 20px;
-}
-
 button:focus {
   outline-color: transparent;
   outline-style: none;
@@ -83,4 +110,23 @@ button:focus {
 input:focus {
   outline-color: transparent;
   outline-style: none;
+}
+
+.map img{
+    width: 100%;
+}
+
+#small-cal{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.calendar{
+    width: 100%;
+}
+
+.kg-choose{
+    background-color: #24baf1;
+    color: white;
 }

@@ -18,7 +18,7 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     
-    <link href="css/donate-confirm.css" rel="stylesheet" type="text/css">
+    <link href="css/donate-waste.css" rel="stylesheet" type="text/css">
 
 
 </head>
@@ -69,69 +69,32 @@
     <!-- Portfolio Grid Section -->
     <section id="donate-waste-content">
         <div class="step-bar text-center">
-            <img src="/img/tab5.png">
+            <img src="/img/tab2.png">
         </div>
-        
+
         <div class="donate-content">
-            <h1 class="text-center donate-content-head">ช่วยตรวจสอบข้อมูลของคุณก่อนกด "ยืนยัน" นะคะ</h1>
+            <h1 class="text-center donate-content-header">เลือกมูลนิธิที่ต้องการบริจาคเลยค่ะ</h1>
 
-            <div class="col-xs-offset-3 col-xs-6" style="padding:0px;">
-                <div class="col-xs-12 underline"></div>
+            <h3 class="text-center donate-content-notice">*กรุณากรอกข้อมูลเพื่อใช้ในการประเมินการขนส่ง*</h3>
 
-                <h3>ชื่อบริษัท</h3>
-                <input class="col-xs-12 box" disabled type="text" value="บริษัท อมรินทร์ บุ๊ค เช็นเตอร์ จำกัด">
-                <br>
-                <h3>วัน - เวลา</h3>
-                <input class="col-xs-11 box" disabled type="datetime" value="8/2/2559">
-                <img id="small-cal" src="img/small-calendar.png" data-toggle="modal" data-target="#myModal">
-                
-                
-                <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h3 class="modal-title">เลือกวัน - เวลา ที่สะดวก</h3>
-        </div>
-        <div class="modal-body">
-          <img class="calendar" src="img/calendar.png">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-                
-                <br>
-                <h3>เบอร์โทรศัพท์</h3>
-                <input class="col-xs-12 box" disabled type="text" value="02-449-9558">
-                <br>
-                <h3>E-mail</h3>
-                <input class="col-xs-12 box" disabled type="email" value="hr@amarin.ac.th">
-                <br>
-                <h3>ระบุตำแหน่ง</h3>
-                <div class="map text-center">
-                    <img src="/img/map.png">
-                </div>
-                <h3>ท่านต้องการใบลดหย่อนภาษีหรือไม่</h3>
+            <div class="text-center">
+                <div style="display:inline;">กระดาษ : </div>
+                <input class="number-paper" type="number">
                 <div class="btn-group" data-toggle="buttons">
                     <label class="btn btn-default unit-choose kg-choose">
-                        <input type="radio" class="want"> ต้องการ
+                        <input type="radio"> กก.
                     </label> 
                     <label class="btn btn-default unit-choose cm-choose">
-                        <input type="radio"> ไม่ต้องการ
+                        <input type="radio"> ซ.ม.
                     </label> 
                 </div>
-
-
-                <br><br>
-                <div class="text-center">
-                    <button class="submit-button next">ถัดไป</button>
-                    <button class="submit-button cancle">ยกเลิก</button>
-                </div>
                 
+            </div>
+            
+            <br>
+            <div class="text-center">
+                <button class="submit-button next">ถัดไป</button>
+                <button class="submit-button cancle">ยกเลิก</button>
             </div>
         </div>
     </section>
@@ -154,12 +117,6 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
-    
-    <script>
-        document.getElementById("#small-cal").click(function(){
-            alert("The paragraph was clicked.");
-        });
-    </script>
 
 </body>
 
